@@ -1,0 +1,25 @@
+local Color = require("colo.color")
+
+return {
+  author = "ViiEx",
+  name = "Dogrun Dark",
+  description = "A dark theme based on Dogrun",
+  source = "https://github.com/wadackel/vim-dogrun",
+  background = "dark",
+  black = Color:new({ hex = "#111219" }),
+  red = Color:new({ hex = "#c2616b" }),
+  green = Color:new({ hex = "#7cbe8c" }),
+  yellow = Color:new({ hex = "#8e8a6f" }),
+  blue = Color:new({ hex = "#4c89ac" }),
+  magenta = Color:new({ hex = "#6c75cb" }),
+  cyan = Color:new({ hex = "#73c1a9" }),
+  white = Color:new({ hex = "#9ea3c0" }),
+  bright_black = Color:new({ hex = "#545c8c" }),
+  bright_red = Color:new({ hex = "#b871b8" }),
+  bright_green = Color:new({ hex = "#7cbe8c" }),
+  bright_yellow = Color:new({ hex = "#a8a384" }),
+  bright_blue = Color:new({ hex = "#589ec6" }),
+  bright_magenta = Color:new({ hex = "#929be5" }),
+  bright_cyan = Color:new({ hex = "#59b6b6" }),
+  bright_white = Color:new({ hex = "#9ea3c0" }),
+}
