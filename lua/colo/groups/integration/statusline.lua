@@ -2,7 +2,7 @@ local M = {}
 
 function M.prime(c)
   return {
-    StatusLine = { foreground = c.black:darken(5), background = c.black:darken(5) },
+    StatusLine = { foreground = c.bright_black:lighten(2), background = c.bright_black:lighten(2) },
     TeSTTNormalMode = { foreground = c.blue, background = c.bright_black:lighten(5) },
     TeSTTVisualMode = { foreground = c.magenta, background = c.bright_black:lighten(5) },
     TeSTTCommandMode = { foreground = c.red, background = c.bright_black:lighten(5) },
@@ -23,8 +23,8 @@ function M.prime(c)
     TeSTTFileName = { foreground = c.red, background = c.bright_black:lighten(5), bold = true },
     TeSTTFolder = { foreground = c.red, background = c.bright_black:lighten(5) },
 
-    Nothing = { foreground = c.black:darken(5), background = c.black:darken(5) },
-    Nothing2 = { foreground = c.black, background = c.black },
+    Nothing = { foreground = c.bright_black:lighten(2), background = c.bright_black:lighten(2) },
+    Nothing2 = { foreground = c.bright_black, background = c.bright_black },
 
     TeSTTError = { foreground = c.red, background = c.bright_black:lighten(5) },
     TeSTTErrorIcon = { foreground = c.red, background = c.bright_black:lighten(5) },
